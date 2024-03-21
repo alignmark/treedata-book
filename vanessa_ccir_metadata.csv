@@ -1,0 +1,53 @@
+﻿GCA,Country,Strain,Isolate,Year,Host,Assembly level,Project
+GCA_000296595.1,Canada,08BA02176,N/A,"Jan 15, 2008",Homo sapiens,Complete,N/A
+GCA_001722595.1,Canada,NML151290,N/A,"Nov 1, 2015",Homo sapiens,Contig,N/A
+GCA_002097595.2,Canada,M92,N/A,"Nov 1, 2015",Homo sapiens,Complete,N/A
+GCA_018093065.1,Canada,CBS2016-05,N/A,2016,Homo sapiens,Complete,N/A
+GCA_021725475.1,Canada,ATR-20003,N/A,2020,Homo sapiens,Complete,N/A
+GCA_028306825.1,USA,USA300,BKV_67,"Oct 28, 2016",Homo sapiens,Contig,N/A
+GCA_028306865.1,USA,USA300,BKV_66,"Oct 26, 2016",Homo sapiens,Contig,N/A
+GCA_028310495.1,USA,USA300,BKV_62,"Aug 15, 2016",Homo sapiens,Contig,N/A
+GCA_028310525.1,USA,USA300,BKV_68,"Oct 27, 2016",Homo sapiens,Contig,N/A
+GCA_028334405.1,USA,USA300,BKV_7,"Jul 3, 2015",Homo sapiens,Contig,N/A
+GCA_028310565.1,USA,USA300,BKV_13,"Sep 16, 2015",Homo sapiens,Contig,N/A
+GCA_028331765.1,USA,USA300,BKV_64,"Sep 12, 2016",Homo sapiens,Contig,N/A
+GCA_028334345.1,USA,USA300,BKV_63,"Aug 16, 2016",Homo sapiens,Contig,N/A
+GCA_028334385.1,USA,USA300,BKV_61,"Jul 26, 2016",Homo sapiens,Contig,N/A
+GCA_030533465.1,China,SA38-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533495.1,China,SA37-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533515.1,China,SA36-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533535.1,China,SA35-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533555.1,China,SA34-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533585.1,China,SA33-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533605.1,China,SA32-SX,N/A,10/17/2022,Homo sapiens,Complete,PRJNA994481
+GCA_030533625.1,China,SA31-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533645.1,China,SA30-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533665.1,China,SA29-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533705.1,China,SA28-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533725.1,China,SA27-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533745.1,China,SA26-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533765.1,China,SA25-SX,N/A,"Oct 17, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533785.1,China,SA24-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533805.1,China,SA23-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533835.1,China,SA22-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533855.1,China,SA21-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533875.1,China,SA20-SX,N/A,3/9/2022,Homo sapiens,Complete,PRJNA994481
+GCA_030533895.1,China,SA19-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533915.1,China,SA18-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533935.1,China,SA17-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533955.1,China,SA16-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533975.1,China,SA15-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030533995.1,China,SA14-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030534015.1,China,SA13-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030534035.1,China,SA12-SX,N/A,"Mar 9, 2022",Homo sapiens,Complete,PRJNA994481
+GCA_030534055.1,China,SA11-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534075.1,China,SA10-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534095.1,China,SA09-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534115.1,China,SA08-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534135.1,China,SA07-SX,N/A,5/4/2021,Homo sapiens,Complete,PRJNA994481
+GCA_030534155.1,China,SA06-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534175.1,China,SA05-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534195.1,China,SA04-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534215.1,China,SA03-SX,N/A,5/4/2021,Homo sapiens,Complete,PRJNA994481
+GCA_030534235.1,China,SA02-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481
+GCA_030534255.1,China,SA01-SX,N/A,"May 4, 2021",Homo sapiens,Complete,PRJNA994481

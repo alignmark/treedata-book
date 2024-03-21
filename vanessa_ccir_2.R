@@ -11,13 +11,23 @@ library(ggstar)
 library(ggplot2)
 library(ggnewscale)
 
-# Define the path to the new Excel file
-file_path <- "C:/Users/shenj/sources/repos/computational-biology/treedata-book/vanessa_ccir_2.xlsx"
+# Read CSV file
+metadata_data <- read.csv("C:/Users/shenj/sources/repos/computational-biology/treedata-book/vanessa_ccir_metadata.csv", na.strings = c("", "NA"))
+genomic_data <- read.csv("C:/Users/shenj/sources/repos/computational-biology/treedata-book/vanessa_ccir_genomic.csv", na.strings = c("", "NA"))
+resistance_data <- read.csv("C:/Users/shenj/sources/repos/computational-biology/treedata-book/vanessa_ccir_resistance.csv", na.strings = c("", "NA"))
 
-# Read the data from each sheet of the Excel file
-metadata_data <- read_excel(file_path, sheet = "metadata")
-genomic_data <- read_excel(file_path, sheet = "genomic")
-resistance_data <- read_excel(file_path, sheet = "resistance")
+# Inspect the GCA identifiers for mismatches
+all_metadata_gca <- unique(metadata$GCA)
+all_genomic_gca <- unique(genomic$GCA)
+all_resistance_gca <- unique(resistance$GCA)
+
+# Find GCA values not present in one or more dataframes
+missing_in_genomic <- setdiff(all_metadata_gca, all_genomic_gca)
+missing_in_resistance <- setdiff(all_metadata_gca, all_resistance_gca)
+
+# Output the missing values to inspect them
+print(missing_in_genomic)
+print(missing_in_resistance)
 
 # Preprocess the data
 metadata_data <- metadata_data[complete.cases(metadata_data), ]
@@ -44,6 +54,32 @@ metadata <- metadata_data %>% select(GCA, Country, Strain)
 
 # Merge resistance data into metadata
 metadata <- left_join(metadata, resistance_data, by = "GCA")
+
+# Check for NA values in the resistance data
+cat("NA values in resistance data:", sum(is.na(resistance_data)), "\n")
+
+# Check the unique values in the resistance data
+cat("Unique values in resistance data:", unique(unlist(resistance_data[, -1])), "\n")
+
+# Check for missing cases in the metadata
+cat("Missing cases in metadata:", sum(!complete.cases(metadata_data)), "\n")
+
+# ... (after creating binary_data and dist_matrix)
+
+# Check the length of metadata and tree tip labels
+cat("Number of tree tips:", length(tree$tip.label), "Number of metadata rows:", nrow(metadata), "\n")
+
+# Check if there are any GCA values in metadata not present in the tree tip labels
+missing_GCA <- setdiff(metadata$GCA, tree$tip.label)
+if (length(missing_GCA) > 0) {
+  cat("Missing GCA in tree tip labels:", missing_GCA, "\n")
+}
+
+Error in if (stats::var(as.numeric(dat[[xid]]), na.rm = TRUE) != 0) { : 
+  missing value where TRUE/FALSE needed
+
+Error in `[[<-.data.frame`(`*tmp*`, paste0("new_", xid), value = 0) : 
+  replacement has 1 row, data has 0
 
 # Ignore negative edge lengths
 options(ignore.negative.edge=TRUE)
